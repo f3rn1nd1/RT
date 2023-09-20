@@ -14,9 +14,8 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <img src="logo.png" alt="" width="60" height="60">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarTogglerDemo02">
+            <img src="img/logo.png" alt="" width="60" height="60">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -55,35 +54,72 @@
                         blanditiis, eius obcaecati error doloribus.</p>
                 </div>
                 <div class="col-6 pt-5">
-                    <img src="UI-UX team-rafiki.svg" alt="">
+                    <img src="img/index.svg" alt="">
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="mb-3">
-                        <label class="pb-3" for="select1">Elige una opcion</label>
-                        <select class="form-select" id="select1">
-                            <option value="1">Ingeniero</option>
-                            <option value="2">Medico</option>
-                            <option value="3">Enfermera</option>
-                            <option value="4">Abogado</option>
-                            <option value="5">Operador</option>
-                        </select>
+        <nav class="mx-5 my-5 ps-4">
+            <nav class="px-4 pt-5 ps-5">
+                <section class="puesto">
+                    <h3 class="pb-5">Ofertas Laborales</h3>
+                    <div class="row py-4 ">
+                        <div class="col-2">
+                            <img src="img/bsantander.png" alt="" width="100" height="100">
+                        </div>
+                        <div class="col-8 ">
+                            <a href=""><h5>¿Listo para una Carrera Bancaria Exitosa? Únete a Nosotros como Ejecutivo de Atención al Cliente en el Banco Nacional. ¡Tu Futuro Comienza Aquí! 💼🏦</h5></a>
+                            <p class="pt-2">¿Eres un apasionado del servicio al cliente y las finanzas? ¡Esta es tu oportunidad de brillar! El Banco Nacional está buscando talento excepcional para unirse a nuestro equipo como Ejecutivo de Atención al Cliente.</p>
+                        </div>
                     </div>
-                </div>
-            </div>
+                    <div class="row py-4">
+                        <div class="col-2">
+                            <img src="img/collahuasi.png" alt="" width="100" height="100">
+                        </div>
+                        <div class="col-8 pt-3">
+                            <a href="#"><h5>Únete a Nuestro Equipo en la Minería: ¡Operador de Cargador Frontal Buscado! 💪🚜⛏️</h5></a>  
+                            <p>¿Tienes experiencia en la operación de cargadores frontales y estás listo para un nuevo desafío emocionante? Nuestra empresa minera está en busca de un Operador de Cargador Frontal altamente calificado para formar parte de nuestro equipo.</p>
+                        </div>
+                    </div>
+                    <div class="row py-4">
+                        <div class="col-2">
+                            <img src="img/hospital.jpg" alt="" width="100" height="100">
+                        </div>
+                        <div class="col-8 pt-3">
+                            <a href="curso/cv.php"><h5>TECNICO ENFERMERIA</h5></a>
+                            <p>En ManpowerGroup, nos encontramos en la búsqueda de Asistente de Enfermería para nuestro cliente dedicado a la Residencia de Adultos Mayores.</p>
+                        </div>
+                    </div>
+                    <div class="row py-4">
+                        <div class="col-2">
+                            <img src="img/telco.svg" alt="" width="100" height="100">
+                        </div>
+                        <div class="col-8 pt-3">
+                            <a href="#"><h5>ESPECIALISTA EN SISTEMA DE CONTROL</h5></a>   
+                            <p>El Especialista de Sistemas de Control trabajará como parte de un equipo distribuido altamente colaborativo que soportará en conjunto diversos sistemas y tecnologías de procesamiento de minerales con enfoque en la seguridad, la fiabilidad y las mejores prácticas.</p>
+                        </div>
+                    </div>
+                    <div class="row py-4">
+                        <div class="col-2">
+                            <img src="img/zofri.png" alt="" width="100" height="100">
+                        </div>
+                        <div class="col-8 pt-3">
+                            <a href="#"><h5>OPERADOR DE RODILLO COMPACTADOR</h5></a>
+                            <p>Empresa de servicios a la mineria requiere Operador de Rodillo Compactador, para contrato de movimiento de tierras en faena Radomiro Tomic en la ciudad de Calama.</p>
+                        </div>
+                    </div>
+
+                    
+                </section>
+
+            </nav>
+        </nav>
+
         </div>
+    </section>
 
 
-
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-            integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
 </body>
 
 </html>
