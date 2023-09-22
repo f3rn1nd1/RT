@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Company extends Model
+class Study extends Model
 {
     use HasFactory;
-    public function employes(){
-        return $this->hasMany('App\Models\Candidate');
+    public function candidate(){
+        return $this->belongsTo('App/Model/Candidate');
     }
 }
