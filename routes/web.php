@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CursoController;
+use App\Http\Controllers\EmpresaController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,5 +15,18 @@ use App\Http\Controllers\CursoController;
 |
 */
 
-Route::get('/', HomeController::class );
-Route::get('curso', [CursoController::class,'index'] );
+Route::get('/', HomeController::class )->name('home.__invoke');
+Route::get('curso', [CursoController::class,'index']) ->name('cursos.index');
+Route::get('curso/la',[CursoController::class,'la'])->name('cursos.la');
+Route::get('curso/login',[EmpresaController::class,'log'])->name('cursos.login');
+Route::get('curso/registro',[EmpresaController::class,'reg'])->name('register');
+
+
+
+
+
+
+
+
+
+
