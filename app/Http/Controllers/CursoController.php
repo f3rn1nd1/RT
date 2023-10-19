@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 class CursoController extends Controller
 {
     public function index(){
-        return view('curso.cv');
+        return view('curso/pro');
     }
+    public function la(){
+        return view('curso/can');
+    }
+
+
 }
