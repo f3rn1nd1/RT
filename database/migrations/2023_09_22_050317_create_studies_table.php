@@ -15,8 +15,9 @@ class CreateStudiesTable extends Migration
     {
         Schema::create('studies', function (Blueprint $table) {
             $table->id();
-            $table->string('nombre',30);
             $table->string('titulo',30);
+            $table->string('tipo_estudio',30);
+            $table->string('universidad',30);
             $table->date('fecha_obtencion');
             $table->unsignedBigInteger('candidates_rut')->nullable();
 

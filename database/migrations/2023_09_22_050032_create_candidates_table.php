@@ -16,8 +16,10 @@ class CreateCandidatesTable extends Migration
         Schema::create('employes', function (Blueprint $table) {
             //INFORMACION PERSONAL
             $table->integer('rut');
+            $table->string('dv');
             $table->string('nombre',50);
-            $table->string('apellido',50);
+            $table->string('apellido_paterno',50);
+            $table->string('apellido_materno',50);
             $table->string('direccion',30);
             $table->string('email',40)->unique();
             $table->unsignedBigInteger('companies_id')->nullable();

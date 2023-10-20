@@ -110,10 +110,6 @@
                 <input type="estudio" class="form-control" id="inputestudio">
               </div>
               <div class="col-md-6">
-                <label for="inputarea" class="form-label">Area de estudio</label>
-                <input type="area" class="form-control" id="inputarea">
-              </div>
-              <div class="col-md-6">
                 <label for="inputuni" class="form-label">Universidad/Institucion
                 </label>
                 <input type="uni" class="form-control" id="inputuni" placeholder="UNAP">
@@ -146,12 +142,14 @@
                 <input type="puesto" class="form-control" id="inputpuesto">
               </div>
               <div class="col-md-6">
-                <label for="inputexperiencia" class="form-label">Nivel de experiencia</label>
-                <input type="experiencia" class="form-control" id="inputexperiencia">
-              </div>
-              <div class="col-md-6">
-                <label for="inputarea" class="form-label">Area del puesto</label>
-                <input type="area" class="form-control" id="inputarea">
+              <label for="inputexperiencia" class="form-label">Nivel de experiencia</label>
+                <select class="form-select" id="inputexperiencia">
+                  <option selected disabled>Selecciona </option>
+                  <option value="basico">Training</option>
+                  <option value="intermedio">Junior</option>
+                  <option value="avanzado">Semisenior</option>
+                  <option value="avanzado">Senior</option>
+                </select>
               </div>
               <div class="col-md-6">
                 <label for="inputinicio" class="form-label">Fecha de inicio</label>
@@ -173,7 +171,7 @@
             </div>
             <form class="row g-3">
               <div class="col-md-6">
-                <label for="inputescrito" class="form-label">Nivel escrito</label>
+                <label for="inputescrito" class="form-label">Idioma</label>
                 <select class="form-select" id="inputescrito">
                   <option selected disabled>Selecciona un idioma</option>
                   <option value="basico">Ingles</option>
@@ -194,7 +192,7 @@
               </div>
 
               <div class="col-md-6">
-                <label for="inputoral" class="form-label">Nivel escrito</label>
+                <label for="inputoral" class="form-label">Nivel oral</label>
                 <select class="form-select" id="inputoral">
                   <option selected disabled>Selecciona un nivel</option>
                   <option value="basico">Básico</option>
