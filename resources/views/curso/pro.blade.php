@@ -103,25 +103,20 @@
             <form class="row g-3">
               <div class="col-md-6">
                 <label for="inputtitulo" class="form-label">Titulo/Carrera</label>
-                <input type="titulo" class="form-control" id="inputtitulo">
+                <input type="titulo" class="form-control" name="titulo">
               </div>
               <div class="col-md-6">
                 <label for="inputestudio" class="form-label">Tipo de estudio</label>
-                <input type="estudio" class="form-control" id="inputestudio">
+                <input type="estudio" class="form-control" name="tipo_estudio">
               </div>
               <div class="col-md-6">
                 <label for="inputuni" class="form-label">Universidad/Institucion
                 </label>
-                <input type="uni" class="form-control" id="inputuni" placeholder="UNAP">
+                <input type="uni" class="form-control" name="universidad" placeholder="UNAP">
               </div>
               <div class="col-md-6">
-                <label for="inputinicio" class="form-label">Fecha de inicio</label>
-                <input type="date" class="form-control" id="inputinicio">
-              </div>
-
-              <div class="col-md-6">
-                <label for="inputfin" class="form-label">Fecha de finalizacion</label>
-                <input type="date" class="form-control" id="inputfin">
+                <label for="inputinicio" class="form-label">Fecha de obtencion</label>
+                <input type="date" class="form-control" name="fecha_obtencion">
               </div>
               <div class="d-grid gap-2 d-md-block ms-2">
                 <button class="btn btn-primary" type="submit">Guardar</button>
@@ -135,15 +130,15 @@
             <form class="row g-3">
               <div class="col-md-6">
                 <label for="inputempresa" class="form-label">Empresa</label>
-                <input type="empresa" class="form-control" id="inputempresa">
+                <input type="empresa" class="form-control" name="razon_social">
               </div>
               <div class="col-md-6">
                 <label for="inputpuesto" class="form-label">Puesto</label>
-                <input type="puesto" class="form-control" id="inputpuesto">
+                <input type="puesto" class="form-control" name="puesto">
               </div>
               <div class="col-md-6">
               <label for="inputexperiencia" class="form-label">Nivel de experiencia</label>
-                <select class="form-select" id="inputexperiencia">
+                <select class="form-select" name="nivel_experiencia">
                   <option selected disabled>Selecciona </option>
                   <option value="basico">Training</option>
                   <option value="intermedio">Junior</option>
@@ -153,12 +148,12 @@
               </div>
               <div class="col-md-6">
                 <label for="inputinicio" class="form-label">Fecha de inicio</label>
-                <input type="date" class="form-control" id="inputinicio">
+                <input type="date" class="form-control" name="f_inicio">
               </div>
 
               <div class="col-md-6">
                 <label for="inputfin" class="form-label">Fecha de finalizacion</label>
-                <input type="date" class="form-control" id="inputfin">
+                <input type="date" class="form-control" name="f_fin">
               </div>
               <div class="d-grid gap-2 d-md-block ms-2">
                 <button class="btn btn-primary" type="submit">Guardar</button>
@@ -172,7 +167,7 @@
             <form class="row g-3">
               <div class="col-md-6">
                 <label for="inputescrito" class="form-label">Idioma</label>
-                <select class="form-select" id="inputescrito">
+                <select class="form-select" name="idioma">
                   <option selected disabled>Selecciona un idioma</option>
                   <option value="basico">Ingles</option>
                   <option value="intermedio">Portugués</option>
@@ -183,7 +178,7 @@
               </div>
               <div class="col-md-6">
                 <label for="inputescrito" class="form-label">Nivel escrito</label>
-                <select class="form-select" id="inputescrito">
+                <select class="form-select" name="nivel_escrito">
                   <option selected disabled>Selecciona un nivel</option>
                   <option value="basico">Básico</option>
                   <option value="intermedio">Intermedio</option>
@@ -193,7 +188,7 @@
 
               <div class="col-md-6">
                 <label for="inputoral" class="form-label">Nivel oral</label>
-                <select class="form-select" id="inputoral">
+                <select class="form-select" name="nivel_oral">
                   <option selected disabled>Selecciona un nivel</option>
                   <option value="basico">Básico</option>
                   <option value="intermedio">Intermedio</option>

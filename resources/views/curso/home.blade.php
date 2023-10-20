@@ -21,13 +21,10 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">   
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{route('cursos.login')}}">Crea cuenta</a>
+                        <a class="nav-link active" aria-current="page" href="{{route('cursos.login')}}">Inicia sesion</a>
                     </li>
                     <li class="nav-item"> 
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="nosotros.html">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Ofertas laborales</a>
@@ -76,37 +73,12 @@
                             <img src="img/collahuasi.png" alt="" width="100" height="100">
                         </div>
                         <div class="col-8 pt-3">
-                            <a href="{{route('cursos.index')}}"><h5>Únete a Nuestro Equipo en la Minería: ¡Operador de Cargador Frontal Buscado! 💪🚜⛏️</h5></a>  
-                            <p>¿Tienes experiencia en la operación de cargadores frontales y estás listo para un nuevo desafío emocionante? Nuestra empresa minera está en busca de un Operador de Cargador Frontal altamente calificado para formar parte de nuestro equipo.</p>
+                            <a href="{{route('cursos.index')}}"><h5>Analista de Informática - El Bosque</h5></a>  
+                            <p>Importante empresa nacional chilena se encuentra en la búsqueda de un Analista de Informática para trabajar en la región metropolitana.</p>
                         </div>
                     </div>
-                    <div class="row py-4">
-                        <div class="col-2">
-                            <img src="img/hospital.jpg" alt="" width="100" height="100">
-                        </div>
-                        <div class="col-8 pt-3">
-                            <a href="{{route('cursos.index')}}"><h5>TECNICO ENFERMERIA</h5></a>
-                            <p>En ManpowerGroup, nos encontramos en la búsqueda de Asistente de Enfermería para nuestro cliente dedicado a la Residencia de Adultos Mayores.</p>
-                        </div>
-                    </div>
-                    <div class="row py-4">
-                        <div class="col-2">
-                            <img src="img/telco.svg" alt="" width="100" height="100">
-                        </div>
-                        <div class="col-8 pt-3">
-                            <a href="{{route('cursos.index')}}"><h5>ESPECIALISTA EN SISTEMA DE CONTROL</h5></a>   
-                            <p>El Especialista de Sistemas de Control trabajará como parte de un equipo distribuido altamente colaborativo que soportará en conjunto diversos sistemas y tecnologías de procesamiento de minerales con enfoque en la seguridad, la fiabilidad y las mejores prácticas.</p>
-                        </div>
-                    </div>
-                    <div class="row py-4">
-                        <div class="col-2">
-                            <img src="img/zofri.png" alt="" width="100" height="100">
-                        </div>
-                        <div class="col-8 pt-3">
-                            <a href="{{route('cursos.index')}}"><h5>OPERADOR DE RODILLO COMPACTADOR</h5></a>
-                            <p>Empresa de servicios a la mineria requiere Operador de Rodillo Compactador, para contrato de movimiento de tierras en faena Radomiro Tomic en la ciudad de Calama.</p>
-                        </div>
-                    </div>
+                    
+                       
                     
                     
 

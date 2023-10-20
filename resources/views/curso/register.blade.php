@@ -11,6 +11,9 @@
 </head>
 
 <body>
+<div>
+        <x-cv />
+    </div>
     <div class="container">
         <div>
             <h2 class="mb-5 mt-5 text-center">Registro</h2>
@@ -18,16 +21,16 @@
                 <div class="row">
                     <div class="col-8 pt-5"> <img src="{{ asset('img/lign.svg') }}" alt="" width="50%" height="50%"></div>
                     <div class="col-4">
-                        <form>
+                        <form action="{{route('curso.keep')}}" method="POST">
+                        @csrf
                         <div class="mb-3">
                                 <label for="inputRUT" class="form-label">RUT</label>
                                 <div class="row">
                                     <div class="col-6">
-                                        <input type="text" class="form-control" id="inputRUT"
-                                            placeholder="12.345.678">
+                                        <input type="text" class="form-control" id="inputRUT" placeholder="12.345.678" name="rut">
                                     </div>
                                     <div class="col-md-1">
-                                        <input type="text" class="form-control" placeholder="0">
+                                        <input type="text" class="form-control" placeholder="0" name="dv">
                                     </div>
 
 
@@ -35,28 +38,32 @@
 
                             <div class="mb-3">
                                 <label for="inputNombre" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" id="inputNombre">
+                                <input type="text" class="form-control" id="inputNombre" name="nombre">
                             </div>
 
                             <div class="mb-3">
                                 <label for="inputApellidoPaterno" class="form-label">Apellido Paterno</label>
-                                <input type="text" class="form-control" id="inputApellidoPaterno">
+                                <input type="text" class="form-control" name="apellido_paterno">
                             </div>
 
                             <div class="mb-3">
                                 <label for="inputApellidoMaterno" class="form-label">Apellido Materno</label>
-                                <input type="text" class="form-control" id="inputApellidoMaterno">
+                                <input type="text" class="form-control" name="apellido_materno">
                             </div>
 
                             <div class="mb-3">
                                 <label for="inputEmail" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="inputEmail"
+                                <input type="email" class="form-control" name="email"
                                     placeholder="nombre@ejemplo.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="inputPassword" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" name="password">
                             </div>
 
                             <div class="mb-3">
                                 <label for="inputDireccion" class="form-label">Dirección</label>
-                                <input type="text" class="form-control" id="inputDireccion"
+                                <input type="text" class="form-control" name="direccion"
                                     placeholder="Av. Ejemplo #123, Ciudad">
                             </div>
 

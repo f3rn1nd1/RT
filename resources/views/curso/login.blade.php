@@ -25,12 +25,12 @@
                     <form>
                         <div class="mb-3">
                             <label for="inputcorreo" class="form-label">Correo electronico</label>
-                            <input type="text" class="form-control" id="inputcorreo" >
+                            <input type="text" class="form-control" name="email" >
                         </div>
 
                         <div class="mb-3">
                             <label for="inputpassword" class="form-label">Contraseña</label>
-                            <input type="text" class="form-control" id="inputpassword">
+                            <input type="text" class="form-control" name="password">
                         </div>
                         <button type="submit" class="btn btn-primary ">Enviar</button>
                         <a href="{{route('register')}}" class="ps-4">Crear cuenta</a>

@@ -13,7 +13,7 @@ class CreateCandidatesTable extends Migration
      */
     public function up()
     {
-        Schema::create('employes', function (Blueprint $table) {
+        Schema::create('candidates', function (Blueprint $table) {
             //INFORMACION PERSONAL
             $table->integer('rut');
             $table->string('dv');
@@ -21,6 +21,7 @@ class CreateCandidatesTable extends Migration
             $table->string('apellido_paterno',50);
             $table->string('apellido_materno',50);
             $table->string('direccion',30);
+            $table->string('password', 12); 
             $table->string('email',40)->unique();
             $table->unsignedBigInteger('companies_id')->nullable();
 
