@@ -19,11 +19,19 @@
                     <div class="col-8 pt-5"> <img src="{{ asset('img/lign.svg') }}" alt="" width="50%" height="50%"></div>
                     <div class="col-4">
                         <form>
-                            <div class="mb-3">
+                        <div class="mb-3">
                                 <label for="inputRUT" class="form-label">RUT</label>
-                                <input type="text" class="form-control" id="inputRUT" placeholder="12.345.678-9">
-                                
-                            </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="text" class="form-control" id="inputRUT"
+                                            placeholder="12.345.678">
+                                    </div>
+                                    <div class="col-md-1">
+                                        <input type="text" class="form-control" placeholder="0">
+                                    </div>
+
+
+                                </div>
 
                             <div class="mb-3">
                                 <label for="inputNombre" class="form-label">Nombre</label>
