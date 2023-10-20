@@ -17,7 +17,7 @@
             <img src="img/logo.png" alt="" width="60" height="60">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
                 <span class="navbar-toggler-icon"></span>
-            </button>
+            </button>  
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">   
                     <li class="nav-item">
