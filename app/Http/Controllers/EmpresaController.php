@@ -29,6 +29,7 @@ class EmpresaController extends Controller
         $candidate->password = bcrypt($request->password);
 
         $candidate->save();
+        return redirect()->route('home.__invoke');
 
         
        

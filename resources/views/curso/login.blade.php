@@ -30,7 +30,7 @@
 
                         <div class="mb-3">
                             <label for="inputpassword" class="form-label">Contraseña</label>
-                            <input type="text" class="form-control" name="password">
+                            <input type="password" class="form-control" name="password">
                         </div>
                         <button type="submit" class="btn btn-primary ">Enviar</button>
                         <a href="{{route('register')}}" class="ps-4">Crear cuenta</a>
