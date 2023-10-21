@@ -22,6 +22,8 @@ Route::get('curso/login',[EmpresaController::class,'log'])->name('cursos.login')
 Route::get('curso/registro',[EmpresaController::class,'reg'])->name('register');
 Route::post('cursos',[EmpresaController::class,'keep'])->name('curso.keep');
 Route::post('login',[EmpresaController::class,'login'])->name('curso.login');
+Route::post('estudio',[EmpresaController::class,'adquisicion'])->name('estudio');
+
 
 
 

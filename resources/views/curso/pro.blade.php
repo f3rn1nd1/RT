@@ -110,7 +110,7 @@
             <div class="d-flex mb-4 pb-5">
               <h6 class="mt-4 col-8 flex-grow-1 p-2">Formación académica</h6>
             </div>
-            <form class="row g-3">
+            <form class="row g-3" action="{{route('adquisicion')}}" method="POST">
               <div class="col-md-6">
                 <label for="inputtitulo" class="form-label">Titulo/Carrera</label>
                 <input type="titulo" class="form-control" name="titulo">
