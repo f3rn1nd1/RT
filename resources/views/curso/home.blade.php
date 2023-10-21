@@ -17,17 +17,17 @@
             <img src="img/logo.png" alt="" width="60" height="60">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
                 <span class="navbar-toggler-icon"></span>
-            </button>  
+            </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">   
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{{route('cursos.login')}}">Inicia sesion</a>
                     </li>
-                    <li class="nav-item"> 
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Ofertas laborales</a>
+                        <a class="nav-link active" href="{{route('cursos.index')}}">Ofertas laborales</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -55,39 +55,6 @@
                 </div>
             </div>
         </div>
-        <nav class="mx-5 my-5 ps-4">
-            <nav class="px-4 pt-5 ps-5">
-                <section class="puesto">
-                    <h3 class="pb-5">Ofertas Laborales</h3>
-                    <div class="row py-4 ">
-                        <div class="col-2">
-                            <img src="img/bsantander.png" alt="" width="100" height="100">
-                        </div>
-                        <div class="col-8 ">
-                            <a href="{{route('cursos.index')}}"><h5>¿Listo para una Carrera Bancaria Exitosa? Únete a Nosotros como Ejecutivo de Atención al Cliente en el Banco Nacional. ¡Tu Futuro Comienza Aquí! 💼🏦</h5></a>
-                            <p class="pt-2">¿Eres un apasionado del servicio al cliente y las finanzas? ¡Esta es tu oportunidad de brillar! El Banco Nacional está buscando talento excepcional para unirse a nuestro equipo como Ejecutivo de Atención al Cliente.</p>
-                        </div>
-                    </div>
-                    <div class="row py-4">
-                        <div class="col-2">
-                            <img src="img/collahuasi.png" alt="" width="100" height="100">
-                        </div>
-                        <div class="col-8 pt-3">
-                            <a href="{{route('cursos.index')}}"><h5>Analista de Informática - El Bosque</h5></a>  
-                            <p>Importante empresa nacional chilena se encuentra en la búsqueda de un Analista de Informática para trabajar en la región metropolitana.</p>
-                        </div>
-                    </div>
-                    
-                       
-                    
-                    
-
-                    
-                </section>
-
-            </nav>
-        </nav>
-
         </div>
     </section>
 

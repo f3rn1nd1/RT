@@ -21,7 +21,7 @@ class CreateCandidatesTable extends Migration
             $table->string('apellido_paterno',50);
             $table->string('apellido_materno',50);
             $table->string('direccion',30);
-            $table->string('password', 12); 
+            $table->string('password', 255); 
             $table->string('email',40)->unique();
             $table->unsignedBigInteger('companies_id')->nullable();
 

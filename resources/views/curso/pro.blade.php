@@ -43,6 +43,16 @@
             </div>
         </div>
     </nav>
+    <nav class="mx-5 my-5 ">
+            <nav class="px-4 pt-3 ps-5">
+            <label for="inputoral" class="form-label">Empresas</label>
+                <select class="form-select" name="id">
+                  <option selected disabled>Selecciona un nivel</option>
+                  <option value="1">Banco Santander</option>
+                  <option value="2">Lider</option>
+                </select>
+            </nav>
+        </nav>
 
 
   <div class="row">
