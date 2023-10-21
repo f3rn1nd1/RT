@@ -22,7 +22,8 @@
             <div class="row">
                 <div class="col pt-5"> <img src="{{ asset('img/lign.svg') }}" alt="" width="70%" height="50%"></div>
                 <div class="col">
-                    <form>
+                    <form action="{{route('curso.login')}}" method="POST">
+                    @csrf
                         <div class="mb-3">
                             <label for="inputcorreo" class="form-label">Correo electronico</label>
                             <input type="text" class="form-control" name="email" >
